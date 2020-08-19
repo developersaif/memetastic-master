@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+<!--       <domain-config cleartextTrafficPermitted="true">-->
+    <!--            <domain includeSubdomains="true">192.168.1.11</domain>-->
+    <!--        </domain-config>-->
+
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">upsavesenergy.com</domain>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">play.google.com</domain>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">beeindia.gov.in</domain>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">mysms.msgclub.logic</domain>
+    </domain-config>
+
+</network-security-config>
